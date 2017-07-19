@@ -22,7 +22,7 @@ mongo-java-driver   (mongo连接)
                   class="my.plugins.plugin.MongoDBPlugin">
             </bean>
         </plugins>
-
+```
 4.启动activemq start
 启动成功
 
