@@ -39,8 +39,12 @@ public class MongoDBQueue extends BrokerFilter {
     public void send(ProducerBrokerExchange producerExchange, Message msg) throws Exception {
         MyMessage myMessage = new MyMessage();
         myMessage.setDestination(msg.getDestination().getPhysicalName());
-        myMessage.setConText(((ActiveMQTextMessage) msg).getText());
-        queue.add(myMessage);
+        //判断是否为文本消息
+        if (msg instanceof ActiveMQTextMessage) {
+            myMessage.setConText(((ActiveMQTextMessage) msg).getText());
+            queue.add(myMessage);
+        }
+
 
 //        if (msg instanceof ActiveMQTextMessage) {
 //
