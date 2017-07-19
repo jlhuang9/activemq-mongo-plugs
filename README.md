@@ -30,7 +30,10 @@ mongo-java-driver   (mongo连接)
 
 
 
-如果想二次开发
+二次开发
+------- 
 可以下载activemq源码   https://github.com/apache/activemq
+
 帮助文档   http://www.jianshu.com/p/364d8aa761fd
+
 我用的是5.14.5(因为据说5.15开始用jdk8了)
