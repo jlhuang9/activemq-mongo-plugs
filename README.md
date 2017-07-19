@@ -73,3 +73,4 @@ mvn clean install Dmaven.test.skip=true
 [INFO] Starting scanner at interval of 10 seconds.
 ```
 5.完成
+访问本地的127.0.0.1:8080
