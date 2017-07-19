@@ -2,6 +2,7 @@
 activemq 插件  activemq mongo 存储
 
 对监听到的文本消息启动存储到mongodb
+
 启动方法
 -------
 1.在你的activemq中的lib文件夹下放入需要的jar包
