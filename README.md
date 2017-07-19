@@ -15,6 +15,7 @@ mongo-java-driver   (mongo连接)
 
 3.修改activemq.xml
 在broker下添加
+```xml
         <plugins>
             <loggingBrokerPlugin logAll="true"></loggingBrokerPlugin>
             <bean xmlns="http://www.springframework.org/schema/beans" id="serviceRequestPlugin"
